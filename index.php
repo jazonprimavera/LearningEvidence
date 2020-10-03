@@ -5,11 +5,12 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
-<div class="header">
-    <div class="inner_header">
-	<div class="logo_container">
-	    <h2>PRIMAVERA</h2>
-       </div>
+  <div id="logoMain">
+    <div id="logoInside"></div>
+	<div id="jp">
+	<h3>PRIMAVERA</h3>
+</div>
+  </div>
 
        <div class="nav-bar">
 	       <div class="nav-links">
@@ -38,6 +39,7 @@
             <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
         </ul>
         <div class="footer--copy">
+		Jazon Galve Primavera
         </div>
 
     </footer>
