@@ -24,7 +24,7 @@
 		   </div>
 		  
 		   <div class="hero">
-		      <h1>PHILIPPINE,<br>WE HEAL AS ONE.</h1>
+		      <h1>PHILIPPINE<br>WE HEAL AS ONE.</h1>
 			  <div class="btn">
 			    <span></span><span></span><span></span><span></span>
 			  <p>Hover me</p>
