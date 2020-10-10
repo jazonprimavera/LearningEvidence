@@ -17,7 +17,7 @@
 		   <ul>
 		      <a href="#">HOME</a>
 		      <a href="#">ABOUT</a>
-		      <a href="#">PORTFOLIO</a>
+		      <a href="port.html">PORTFOLIO</a>
 		      <a href="#">CONTACT</a>
 		      </ul>
 		      </div>
