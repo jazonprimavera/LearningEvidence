@@ -15,6 +15,7 @@
        <div class="nav-bar">
 	       <div class="nav-links">
 		   <ul>
+		      <a href="midTermExam.html">FLOOM</a>
 		      <a href="#">HOME</a>
 		      <a href="#">ABOUT</a>
 		      <a href="port.html">PORTFOLIO</a>
