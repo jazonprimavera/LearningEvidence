@@ -1,0 +1,135 @@
+<html>
+<body>
+
+<canvas id="myCanvas14" width="300" height="150" style="border:1px solid #d3d3d3;">
+</canvas>
+ 
+<script>
+ 
+var c = document.getElementById("myCanvas14");
+var ctx14 = c.getContext("2d");
+var grd14 = ctx14.createLinearGradient(0, 0, 170, 0);
+grd14.addColorStop(0, "black");
+grd14.addColorStop(0.5, "red");
+grd14.addColorStop(1, "white");
+ctx14.fillStyle = grd14;
+ctx14.fillRect(20, 20, 150, 100);
+ 
+</script>
+<canvas id="myCanvas19" width="500" height="150" style="border:1px solid #d3d3d3;">
+</canvas>
+ 
+<script>
+ 
+var c = document.getElementById("myCanvas19");
+var ctxv = c.getContext("2d");
+ctxv.shadowBlur = 20;
+ctxv.fillStyle = "red";
+ 
+ctxv.shadowColor = "black";
+ctxv.fillRect(20, 20, 100, 80);
+ 
+ctxv.shadowColor = "blue";
+ctxv.fillRect(140, 20, 100, 80);
+   
+ctxv.shadowBlur=80;
+ctxv.shadowColor='rgb(255,0,255)';
+ctxv.fillRect(260,20,100,80);
+   
+ctxv.shadowBlur=20;
+ctxv.shadowColor='#000000';
+ctxv.fillStyle='red';
+ctxv.fillRect(380,20,100,80);
+   
+</script>
+  <canvas id="myCanvas21" width="300" height="150" style="border:1px solid #d3d3d3;"></canvas>
+ 
+<script>
+ 
+var c = document.getElementById("myCanvas21");
+var ctx21 = c.getContext("2d");
+ctx21.shadowBlur = 10;
+ctx21.shadowOffsetX = 20;
+ctx21.shadowColor = "black";
+ctx21.fillStyle= "red";
+ctx21.fillRect(20, 20, 100, 80);
+   
+ 
+ctx21.shadowBlur=10;
+ctx21.shadowOffsetX=-5;
+ctx21.shadowColor='black';
+ctx21.fillStyle='red';
+ctx21.fillRect(180,20,100,80);
+     
+</script>
+  <canvas id="myCanvas27" width="300" height="150" style="border:1px solid #d3d3d3;">
+</canvas>
+ 
+<script>
+ 
+var c = document.getElementById("myCanvas27");
+var ctxp = c.getContext("2d");
+  
+var grdo = ctxp.createLinearGradient(0, 0, 170, 0);
+grdo.addColorStop(0, "black");
+grdo.addColorStop("0.3", "magenta");
+grdo.addColorStop("0.5", "blue");
+grdo.addColorStop("0.6", "green");
+grdo.addColorStop("0.8", "yellow");
+grdo.addColorStop(1, "red");
+  
+ctxp.fillStyle = grdo;
+ctxp.fillRect(20, 20, 150, 100); 
+ 
+</script>
+ <canvas id="myCanvas32" width="300" height="150" style="border:1px solid #d3d3d3;">
+</canvas>
+ 
+<script>
+ 
+var c = document.getElementById("myCanvas32");
+var ctxr = c.getContext("2d");
+ 
+// Red rectangle
+ctxr.beginPath();
+ctxr.lineWidth = "6";
+ctxr.strokeStyle = "red";
+ctxr.rect(5, 5, 290, 140);  
+ctxr.stroke();
+ 
+// Green rectangle
+ctxr.beginPath();
+ctxr.lineWidth = "4";
+ctxr.strokeStyle = "green";
+ctxr.rect(30, 30, 50, 50);
+ctxr.stroke();
+ 
+// Blue rectangle
+ctxr.beginPath();
+ctxr.lineWidth = "10";
+ctxr.strokeStyle = "blue";
+ctxr.rect(50, 50, 150, 80);
+ctxr.stroke();
+</script> 
+<canvas id="myCanvas17" width="300" height="150" style="border:1px solid #d3d3d3;">
+</canvas>
+ 
+<script>
+ 
+var c = document.getElementById("myCanvas17");
+var ctxq = c.getContext("2d");
+ 
+var gradient17 = ctxq.createLinearGradient(0, 0, 170, 0);
+gradient17.addColorStop("0", "magenta");
+gradient17.addColorStop("0.5", "blue");
+gradient17.addColorStop("1.0", "red");
+ 
+// Fill with gradient
+ctxq.strokeStyle = gradient17;
+ctxq.lineWidth = 5;
+ctxq.strokeRect(20, 20, 150, 100);
+ 
+</script>
+
+</body>
+</html>
