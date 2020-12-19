@@ -12,7 +12,7 @@
   </div>
 
   <nav>
-    <a href="index.html">HOME</a>
+    <a href="index.php">HOME</a>
 	<a href="midTermExam.html">FLOOM</a>
     <a href="css.html">CSS</a>
     <a href="svgpage.html">SVG</a>
